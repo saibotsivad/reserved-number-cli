@@ -1,0 +1,34 @@
+{
+  "name": "reserved-number-cli",
+  "version": "1.0.0",
+  "description": "Allocate and deallocate numbers (one per name) on the command line.",
+  "scripts": {
+    "test": "echo \"{}\" > settings.json && tape test.js && rm settings.json"
+  },
+  "bin": {
+    "reserved-number": "bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobiaslabs/reserved-number-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "number",
+    "reserve",
+    "allocate"
+  ],
+  "author": "saibotsivad",
+  "license": "VOL",
+  "bugs": {
+    "url": "https://github.com/tobiaslabs/reserved-number-cli/issues"
+  },
+  "homepage": "https://github.com/tobiaslabs/reserved-number-cli#readme",
+  "dependencies": {
+    "minimist": "1.2.0"
+  },
+  "devDependencies": {
+    "tape": "^4.5.1",
+    "tape-spawn": "^1.4.0"
+  }
+}
