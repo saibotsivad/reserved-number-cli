@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Allocate and deallocate numbers (one per name) on the command line.",
   "scripts": {
-    "test": "echo \"{}\" > settings.json && tape test.js && rm settings.json"
+    "test": "tape test.js && rm -f settings.json"
   },
   "bin": {
     "reserved-number": "bin.js"

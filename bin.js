@@ -35,13 +35,14 @@ if (command === 'g' || command === 'get') {
 			map[numbers[key]] = true
 			return map
 		}, {})
-		for (var i = args.minimum; i < args.maximum; i++) {
+		for (var i = args.minimum; i <= args.maximum; i++) {
 			if (!reserved[i]) {
 				numbers[name] = i
 				write()
 				exit(i, OK)
 			}
 		}
+		exit('no numbers available!', BAD)
 	}
 } else {
 	exit('command not found', BAD)
