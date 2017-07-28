@@ -1,5 +1,7 @@
 # reserved-number-cli
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/saibotsivad/reserved-number-cli.svg)](https://greenkeeper.io/)
+
 Allocate and deallocate numbers.
 
 ## install
